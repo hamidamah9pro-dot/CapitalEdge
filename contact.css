@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f8f8;
+}
+.logo img{
+    width: 13rem;
+}
+.logo h1{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 38%;
+    padding: 2%;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 4px 4px 15px #bebebe, -4px -4px 15px #fff;
+}
+.lieu{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    gap: 50px;
+}
+.contacts{
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 4px 4px 15px #bebebe, -4px -4px 15px #fff;
+    padding: 4%;
+    background: linear-gradient(90deg, #ffc421, #fff);
+}
+.contacts h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+.localisation{
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 4px 4px 15px #bebebe, -4px -4px 15px #fff;
+    display: flex;
+     background: linear-gradient(-90deg, #ffc421, #fff);
+}
+.localisation img{
+    width: 90vh;
+    height: 40vh;
+    object-fit: cover;
+    margin: 4%;
+    border-radius: 40px;
+}
+.localisation .siege{
+    position: absolute;
+    left: 60%;
+    bottom: -35%;
+}
+.siege h1{
+    margin: 9% 0;
+    font-size: 3rem;
+}
+.siege h4{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
